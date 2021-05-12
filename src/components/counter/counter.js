@@ -14,9 +14,12 @@ const Counter = (props) => {
     }
 
     //styles
+    const divStyle = {
+        color: "red"
+    }
 
     return (
-        <div>
+        <div styles={divStyle}>
             <button onClick={increment}>+{incLimit}</button>
             <div>{currentState}</div>
         </div>

@@ -19,7 +19,7 @@ const Counter = (props) => {
     }
 
     return (
-        <div styles={divStyle}>
+        <div style={divStyle}>
             <button onClick={increment}>+{incLimit}</button>
             <div>{currentState}</div>
         </div>

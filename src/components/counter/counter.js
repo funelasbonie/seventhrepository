@@ -15,7 +15,7 @@ const Counter = (props) => {
 
     //styles
     const divStyle = {
-        color: "red"
+        color: "yellow"
     }
 
     return (
